@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+.aside {
+  width: 800px;
+  height: 100vh;
+  background-image: url(../../../assets/images/back.png);
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 80px;
+  padding-left: 60px;
+  h1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  p {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    width: 620px;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 840px;
+  }
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+  h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+  }
+}

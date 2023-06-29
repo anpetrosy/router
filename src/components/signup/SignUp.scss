@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+.signup {
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1120px;
+  height: 100vh;
+  &-info {
+    font-family: 'Poppins', sans-serif;
+    h1 {
+      font-weight: 500;
+      font-size: 32px;
+    }
+    p {
+      font-size: 16px;
+      color: #8D8D8D;
+      margin-bottom: 60px;
+    }
+    input {
+      margin-bottom: 40px;
+      width: 440px;
+      height: 40px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      outline: none;
+    }
+    h6 {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+  &-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    justify-content: space-between;
+    &-logo {
+      width: 26px;
+      height: 26px;
+      background-repeat: no-repeat;
+      background-image: url(../../../assets/vectors/vector.png);
+      margin-right: 14px;
+    }
+    #black {
+      background-color: black;
+      color: white;
+      font-weight: 100;
+      border: none;
+    }
+    #white {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    button {
+      border-radius: 20px;
+      border: 1px solid #8D8D8D;
+      background-color: white;
+      width: 440px;
+      height: 65px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      line-height: 30px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+  &-link {
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 30px;
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: deepskyblue;
+    }
+  }
+}
