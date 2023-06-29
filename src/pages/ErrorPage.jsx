@@ -2,7 +2,7 @@ import React from 'react'
 
 const ErrorPage = () => {
   return (
-    <h1>Error</h1>
+    <h1 style={{fontFamily: "sans-serif"}}>Error</h1>
   )
 }
 
