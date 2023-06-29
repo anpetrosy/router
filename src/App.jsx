@@ -6,7 +6,7 @@ import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Routes>
         <Route path='/' element={<SignUpPage />} />
         <Route path='/signin' element={<SignInPage />} />
